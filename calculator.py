@@ -45,7 +45,7 @@ operations = {
 
 
 def calculator():
-
+    """Main function of the calculator app"""
     num1 = float(input("What's the first number?: "))
     for symbol in operations:
         print(symbol)
